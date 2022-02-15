@@ -1,0 +1,24 @@
+GET http://localhost:8000/log 
+Content-Type: application/json
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiY2E0M2NlYWYyMmI3NDc3ZmIzMmIiLCJpYXQiOjE2NDQ5NDczNDYsImV4cCI6MTY0NDk1MDk0Nn0.laWg07SqKBYVzdziZyRMslbk5wqRWqRwJTEs5VFxqx
+
+###
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "fullname": "adeoye ayobami",
+    "username": "ayoadeoye",
+    "email": "deoye02@gmail.com",
+    "password": "jaywon"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "deoye02@gmail.com",
+    "password": "jaywon"
+}

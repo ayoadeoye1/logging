@@ -1,0 +1,36 @@
+{
+  "name": "aftermonth",
+  "version": "1.0.0",
+  "description": "revising auth-node after a month",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoadeoye1/user-authentication.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "adeoye ayobami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayoadeoye1/user-authentication/issues"
+  },
+  "homepage": "https://github.com/ayoadeoye1/user-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
